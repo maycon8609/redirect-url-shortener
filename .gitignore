@@ -1,0 +1,52 @@
+# Arquivos de compilação
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+*.out
+*.tmp
+
+# Diretórios gerados por compilação
+/bin/
+/build/
+/target/
+
+# Arquivos gerados pelo Maven
+.mvn/timing.properties
+.mvn/jvm.config
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Dependências baixadas pelo Maven
+**/mvnrepository/
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de pacotes temporários
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos gerados pelo sistema operacional
+*.swp
+*.lock
+*.bak
+
+# Chaves e credenciais (exemplo genérico)
+*.pem
+*.key
+*.p12
+*.crt
+*.env
